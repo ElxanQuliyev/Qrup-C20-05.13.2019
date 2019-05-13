@@ -3,7 +3,8 @@ http://gentium.pixerex.com/wp/
 <br>
 Responsivliyi ile bərabər saytı yiğmalisiz.<br>
 
-Ələvə olaraq drive'a javascript ilə bağlı gönderdiyim videolara baxa bilersiz.
+Ələvə olaraq drive'a javascript ilə bağlı gönderdiyim videolara baxa bilersiz.<br>
+
 <i>Uğurlar</i>
 
 
