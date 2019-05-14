@@ -1,0 +1,109 @@
+body {
+  background: url(../photo/paper_text.png); }
+
+#chatMini {
+  width: 200px;
+  height: 40px;
+  background-color: #00a99d;
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  border-radius: 20px 20px 0 0;
+  color: white;
+  padding: 10px;
+  cursor: pointer; }
+
+#chat {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  border: 1px solid white;
+  border-radius: 5px 5px 0 0;
+  width: 400px; }
+  #chat.active {
+    display: block; }
+  #chat header {
+    padding: 10px;
+    background-color: #00a99d;
+    color: white;
+    width: 400px;
+    border-radius: 5px 5px 0 0; }
+    #chat header .upper .header-icon {
+      float: right;
+      padding: 3px 10px;
+      cursor: pointer; }
+    #chat header .lower {
+      padding: 10px 30px;
+      font-size: 0.9em;
+      text-align: center; }
+  #chat main {
+    height: 300px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    overflow-y: auto; }
+    #chat main .message {
+      padding: 10px;
+      max-width: 80%;
+      min-width: 51%;
+      border-radius: 10px;
+      font-size: 0.9em;
+      position: relative;
+      margin: 20px 0; }
+    #chat main .time {
+      position: absolute;
+      bottom: -36px;
+      color: #4d4d4d;
+      right: 9px;
+      font-size: 0.9em; }
+    #chat main .support {
+      background-color: #00a99d;
+      color: white;
+      float: left; }
+      #chat main .support::after {
+        content: '';
+        position: absolute;
+        top: 14px;
+        left: -16px;
+        border: 8px solid transparent;
+        border-right-color: #00a99d; }
+    #chat main .user {
+      background: #e1e1e1;
+      float: right;
+      color: #333; }
+      #chat main .user::before {
+        content: "";
+        position: absolute;
+        top: 14px;
+        right: -16px;
+        border: 8px solid transparent;
+        border-left-color: #e1e1e1; }
+  #chat footer {
+    border-top: 2px solid #e1e1e1; }
+    #chat footer .form-group {
+      margin: 0; }
+    #chat footer .form-control:focus {
+      box-shadow: none; }
+    #chat footer .input-wrapper {
+      position: relative; }
+      #chat footer .input-wrapper textarea {
+        border: none;
+        padding: 10px 33px 10px 10px; }
+        #chat footer .input-wrapper textarea::placeholder {
+          color: #c8c8c8; }
+      #chat footer .input-wrapper .icons {
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        display: flex;
+        list-style: none; }
+        #chat footer .input-wrapper .icons li {
+          margin-right: 5px;
+          cursor: pointer;
+          color: #c8c8c8;
+          transition: all 0.3s linear; }
+          #chat footer .input-wrapper .icons li:hover {
+            color: black; }
+
+/*# sourceMappingURL=style.css.map */
